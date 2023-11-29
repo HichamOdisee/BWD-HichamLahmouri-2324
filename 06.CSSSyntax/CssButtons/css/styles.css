@@ -1,10 +1,8 @@
-/* Réinitialiser les marges et les rembourrages pour éviter les styles par défaut du navigateur */
 body, h1, h2, p {
     margin: 5px;
     padding: 0;
 }
 
-/* Appliquer une police de caractères générique à la page */
 body {
     font-family: Arial, sans-serif;
 }
@@ -13,14 +11,12 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Styler le titre principal */
 h1 {
     text-align: center;
     margin: 20px 0;
     text-align: left;
 }
 
-/* Styler les boutons */
 .btnGreen {
     display: inline-block;
     padding: 10px 30px;
@@ -43,7 +39,7 @@ h1 {
     background-color: rgba(255, 0, 0, 0.2);
     color: rgb(143, 74, 74);
     text-decoration: none;
-    border-radius: 50%; /* Pour obtenir un aspect de bouton rond */
+    border-radius: 50%;
     margin-bottom: 10px;
 }
 
