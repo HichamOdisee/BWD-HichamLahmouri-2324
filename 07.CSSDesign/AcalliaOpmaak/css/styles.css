@@ -117,7 +117,7 @@ h3::after
    padding: 10px 15px;
    text-decoration: none;
    border: 1px solid #b52025;
-   border-radius: 3px;
+   border-radius: 10px;
    color: #b52025;
 }
 .more a::after
@@ -133,9 +133,28 @@ form
    text-align: left;
 }
 
+#email
+{
+   background-color: #fdeaeb;
+}
+section form button:hover
+{
+   background-color: #b52025;
+   color: white;
+}
 /* ===========================================
    Footer
    =========================================== */
 
 /* footer styles here */
 /* ... */
+footer
+{
+   text-align: center;
+   border-top: 2px #dfdfdf dotted;
+   background: linear-gradient(
+      to bottom,
+      #dfdfdf,
+      white
+   );
+}
