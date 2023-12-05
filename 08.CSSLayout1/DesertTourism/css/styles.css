@@ -9,21 +9,24 @@
 /* ======= */
 
 body{
-    margin: 0 auto;
+    margin: auto;
 }
 
 img {
     max-width: 100%;
 }
-
+.wrapper
+{
+    max-width: 960px;
+}
 /* HEADER */
 /* ====== */
 
-header {
+header .wrapper  {
     display: flex;
     justify-content: space-between;
-    max-width: 960px;
-    margin: 0 auto;
+    margin:  auto;
+    margin-top: au;
     align-items: center;
 }
 
@@ -53,13 +56,13 @@ nav ul li {
     max-width: 100%;
 }
 
-#gallery ul {
+#gallery ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#gallery ul li {
+#gallery ul li{
     padding: 10px;
     width: 23%;
 }
@@ -95,7 +98,7 @@ nav ul li {
 /* DOORMAT */
 /* ======= */
 
-#doormat {
+#doormat .wrapper{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -105,7 +108,7 @@ nav ul li {
 /* FOOTER */
 /* ======= */
 
-footer {
+footer .wrapper{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
