@@ -1,0 +1,293 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+}
+
+main .wrapper {
+    display: block;
+    justify-content: space-between;
+    column-gap: 25px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+header .sm ul {
+    display: flex;
+    list-style: none;
+}
+
+.sm li {
+    margin: 10px;
+}
+
+nav {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul {
+    display: block;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+nav li a:hover {
+    color: #c67188;
+}
+
+nav li {
+    margin: 10px;
+}
+
+span {
+    color: black;
+}
+
+#search {
+    border: none;
+    margin-top: 7px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+header .social {
+    display: block;
+    justify-content: space-between;
+    background-color: #eeeeee;
+}
+
+.social .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.social form {
+    display: flex;
+}
+
+.banner {
+    background-image: url(../img/seoul_skyline.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px;
+}
+
+.banner-text {
+    margin-bottom: 50px;
+    color: white;
+}
+
+.banner-text a {
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+}
+
+.social button {
+    display: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.left {
+    width: 100%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.right {
+    width: 75%;
+}
+
+.right img {
+    width: 30%;
+}
+
+.right .me {
+    float: right;
+    width: 40%;
+}
+
+.seoul {
+    display: flex;
+
+}
+
+.seoul img {
+    height: 100%;
+    margin-top: 20px;
+}
+
+.seoul div {
+    margin: 15px;
+    width: 100%;
+}
+
+.seoul h3 {
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.left .articles {
+    background-color: #eeeeee;
+    padding-bottom: 60px;
+    margin-top: 20px;
+}
+
+.read {
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    color: black;
+    float: right;
+    margin: 10px;
+}
+
+.articles ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: square;
+}
+
+.articles li {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+strong {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.articles li:first-child {
+    list-style: none;
+    text-decoration: none;
+}
+
+.left h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.right input {
+    margin: 0;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    width: 100%;
+}
+
+.right form {
+    line-height: 1.5;
+}
+
+.right textarea {
+    margin-top: 10px;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    height: 100px;
+}
+
+main {
+    margin-top: 25px;
+}
+
+h2 {
+    border-bottom: 2px solid #c67188;
+    white-space: nowrap;
+    width: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.right button {
+    padding: 10px;
+    color: white;
+    background-color: #c67188;
+    border: 1px solid #eeeeee;
+    width: 200px;
+    border-radius: 10px;
+}
+
+footer .wrapper {
+    border-top: 2px solid #eeeeee;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+@media (min-width: 480px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        align-items: flex-end;
+        margin-bottom: 40px;
+    }
+    header .social {
+        display: flex;
+        justify-content: space-between;
+        background-color: #eeeeee;
+    }
+    main .wrapper {
+        display: flex;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .left {
+        width: 60%;
+    }
+    .right {
+        width: 40%;
+    }
+    .seoul div {
+        width: 40%;
+    }
+    .left .articles {
+        margin-right: 100px;
+    }
+}
+@media (min-width: 700px) {
+    body {
+        font-size: 12px;
+    }
+}
