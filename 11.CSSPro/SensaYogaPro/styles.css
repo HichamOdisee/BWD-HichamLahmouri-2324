@@ -1,0 +1,61 @@
+/*
+Author: Hicham Lahmouri
+Description: main styles
+*/
+
+@import "css/banner.css";
+@import "css/common.css";
+@import "css/footer.css";
+@import "css/general.css";
+@import "css/header.css";
+
+
+.mainleft {
+    padding: 30px 15px 0 15px;
+}
+
+#gallery {
+    margin: 35px 0;
+}
+
+/* right */
+
+.mainright {
+    padding: 30px 15px 0 15px;
+}
+
+.mainright h3 a {
+    color: var(--primary-mainright);
+    border-bottom: 1px solid #cccccc;
+}
+
+.mainright h3 a:hover {
+    text-decoration: none;
+    color: var(--primary-mainright-hover);
+}
+
+.workshop .date {
+    border: 1px solid #ccc;
+}
+
+.workshop .day {
+    font-size: 60px;
+    line-height: 1em;
+}
+
+.readmore {
+    display: block;
+    margin-top: 10px;
+}
+
+/* general */
+
+main .wrapper {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+main p {
+    color: #666;
+    line-height: 20px;
+}
