@@ -1,0 +1,59 @@
+/*
+ * Oplossingen oefeningen
+ *
+ */
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+main .wrapper {
+    display: flex;
+}
+
+#blogposts .blogpost {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+aside #gallery {
+    width: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+aside #gallery img {
+    background-color: #ccc;
+    column-gap: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 10px;
+    width: 600px;
+}
+
+aside #gallery img {
+    margin: 0;
+    width: 32%;
+}

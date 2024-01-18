@@ -1,0 +1,60 @@
+/**
+ * Oplossingen
+ *
+ * @author Rogier van der Linde
+ *
+ */
+header #logo {
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+    box-shadow: 1px 1px 20px #333;
+}
+
+#banner {
+    background-image: url(img/laptop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav ul li a {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #ED564B;
+    text-decoration: none;
+}
+
+#features .feature .feature_visual
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+#features .feature
+{
+    text-align: center;
+}
+
+#features .feature a::after
+{
+    content: " »";
+}
+
+h2
+{
+    color: #ED564B;
+    text-decoration: underline dotted;
+}
+
+figcaption
+{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333;
+
+}
