@@ -6,8 +6,64 @@ header .menu ul li .accueil{
 h1{
     color: #F48202;
     font-family: "Lobster", sans-serif;
+    font-size: 40px;
 }
 
 .mission-p{
-    justify-content: flex-start;
+    justify-content: stretch;
+    max-width: 70%;
+    font-family: "Lobster", sans-serif;
+    margin-bottom: 50px;
+}
+
+.img-container{
+    align-content: center; /* probeer ook flex-start, flex-end... */         
+   display: flex; 
+   flex-wrap: wrap; 
+   gap: 10px;
+   justify-content: center;
+}
+
+.img-container img{
+    width: 125px;
+    display: block;
+    margin: auto;
+}
+
+.img-container p{
+    width: 200px;
+    align-items: flex-end;
+}
+
+.img-container .readmore{
+    display: flex;
+    align-items: flex-end;
+}
+
+.img{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    background: linear-gradient(to bottom, transparent 35%, #ffd29f 10%);
+}
+
+.img p{
+    padding: 2px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    border-top: #F48202 solid 1px;
+    border-bottom: #F48202 solid 1px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: "Lato", sans-serif;
+}
+
+.img-container .readmore a{
+    padding: 5px 30px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    color: black;
+    box-shadow: 1px 3px;
 }
