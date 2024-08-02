@@ -1,0 +1,13 @@
+header .menu ul li .accueil{
+    padding: 1px 20px;
+    background-color: lightblue;
+}
+
+h1{
+    color: #F48202;
+    font-family: "Lobster", sans-serif;
+}
+
+.mission-p{
+    justify-content: flex-start;
+}

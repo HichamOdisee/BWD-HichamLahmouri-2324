@@ -1,0 +1,82 @@
+body{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+header .logo
+{
+    width: 250px;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+}
+
+header .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header .menu{
+    font-size: 30px;
+}
+
+header .menu ul li a{
+    text-decoration: none;
+    color: #F48202;
+    transition: 0.2s;
+    font-family: "Lobster", sans-serif;
+}
+
+header .menu ul li a:hover{
+    font-size: 35px;
+    text-decoration: none;
+    color: #F48202;
+}
+
+header .menu-social{
+    justify-content: end;
+}
+
+header .menu-social div p{
+    flex-direction: row-reverse;
+}
+
+header .menu-social .search, header .menu-social .social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .menu-social .social p a{
+    font-size: 30px;
+    color: #F48202;
+    margin-left: 50px;
+}
+
+header .menu-social .search input{
+    border-radius: 1px;
+    border-color: #F48202;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.copyright{
+    padding-top: 10px;
+    border-top: #F48202 solid 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright a{
+    display: flex;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: blue;
+}
