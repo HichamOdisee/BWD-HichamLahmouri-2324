@@ -16,6 +16,13 @@ h1{
     margin-bottom: 50px;
 }
 
+.actu-p{
+    justify-content: stretch;
+    max-width: 70%;
+    font-family: "Lobster", sans-serif;
+    margin-bottom: 50px;
+}
+
 .img-container{
     align-content: center; /* probeer ook flex-start, flex-end... */         
    display: flex; 
@@ -66,4 +73,58 @@ h1{
     text-decoration: none;
     color: black;
     box-shadow: 1px 3px;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.articles .banners img{
+    width: 350px;
+}
+
+.banners{
+    padding: auto;
+    border: 3px solid black;
+}
+
+.more-actu{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.more-actu a{
+    padding: 5px 50px;
+    border: 2px solid black;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    color: black;
+    box-shadow: 1px 3px;
+}
+
+.articles .img-read{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.articles .img-read i{
+    font-size: 30px;
+}
+
+.articles .art-text{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.articles .date{
+    text-align: end;
+    margin-right: 10px;
+    font-family: "Lato", sans-serif;
 }
