@@ -79,7 +79,7 @@ h1{
 .articles{
     align-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
     justify-content: center;
 }
@@ -215,6 +215,8 @@ textarea {
 
 input[type="file"] {
     display: inline-block;
+    padding: 10px;
+    border-bottom: 1px #F48202 solid;
 }
 
 input[type="text"],
@@ -256,13 +258,4 @@ input[type="checkbox"] {
 .social p a, .social p span{
     color: #F48202;
     margin-left: 15px;
-}
-
-@media (min-width: 600px) {
-    .articles{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 20px;
-    }
 }

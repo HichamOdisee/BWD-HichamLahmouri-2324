@@ -2,3 +2,19 @@ header .menu ul li .actualités{
     padding: 1px 20px;
     background-color: lightblue;
 }
+
+.text{
+    max-width: 800px;
+}
+
+.images{
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: stretch;
+    margin-top: 100px;
+}
+
+.images img{
+    width: 30%;
+}
