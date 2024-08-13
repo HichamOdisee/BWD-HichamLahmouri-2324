@@ -3,6 +3,29 @@ header .menu ul li .contacte{
     background-color: lightblue;
 }
 
+p{
+    max-width: 600px;
+}
+
+.info-contact{
+    display: flex;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.links ul li a{
+    color: rgb(71, 95, 233);
+    font-size: 15px;
+}
+
 .support{
     display: flex;
     margin-bottom: 50px;
@@ -61,7 +84,6 @@ header .menu ul li .contacte{
 }
 
 .contact-form {
-    max-width: 600px;
     margin: 0 auto;
 }
 
