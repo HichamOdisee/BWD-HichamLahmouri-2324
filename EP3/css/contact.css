@@ -13,7 +13,13 @@ p{
 
 .links{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+.links .logos{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .links ul li{
@@ -151,4 +157,8 @@ input[type="checkbox"] {
 .social p a, .social p span{
     color: #F48202;
     margin-left: 15px;
+}
+
+h1, h3{
+    font-family: "Lato", sans-serif;
 }
