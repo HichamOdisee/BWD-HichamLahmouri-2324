@@ -78,7 +78,6 @@ h1{
 
 .articles{
     align-content: center;
-    display: flex;
     flex-wrap: nowrap;
     gap: 20px;
     justify-content: center;
@@ -133,7 +132,6 @@ h1{
 }
 
 .support{
-    display: flex;
     margin-bottom: 50px;
     justify-content: space-between;
     font-family: "Lato", sans-serif;
@@ -258,4 +256,14 @@ input[type="checkbox"] {
 .social p a, .social p span{
     color: #F48202;
     margin-left: 15px;
+}
+
+@media (min-width: 600px){
+    .articles{
+        display: flex;
+    }
+
+    .support{
+        display: flex;
+    }
 }
